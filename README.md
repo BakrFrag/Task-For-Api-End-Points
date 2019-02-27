@@ -13,7 +13,7 @@
 # relationships 
     Student Model ManyToMany Relationship with Course Model 
     Course Model ManyToMany Relationship with Teacher Model
-# hint >> we don't need to break each many to many relationship into 2 relations of type one to many Django Does This For Us
+### hint >> we don't need to break each many to many relationship into 2 relations of type one to many Django Does This For Us
 # Api EndPoint
     we offer Api End Points For 
         1.authentication (signin/signout) with Json Web Token (JWT)
