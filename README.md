@@ -20,7 +20,8 @@ hint we don't need to break each many to many relationship <br> into 2 relations
     we offer Api End Points For 
         1.authentication (signin/signout) with Json Web Token (JWT)
         2. end points for 
-                ``` Courses ```
+                ```Courses```
+         
               1.create course 
               2.edit course info
               3.delete course 
@@ -28,13 +29,13 @@ hint we don't need to break each many to many relationship <br> into 2 relations
               5.display all courses
               6.edit students associated to course
               7.edit teachers  associated to course
-                ``` Student ```
+                ```Student```
               1.create student
               2.delete student
               3.update student info 
               4.display all students 
               5.display student as single object
-                 ``` Teacher ```
+                 ```Teacher```
               1.create teacher 
               2.edit teacher info 
               3.delete teacher
@@ -45,3 +46,4 @@ hint we don't need to break each many to many relationship <br> into 2 relations
     1.install libraries in requirements.txt 
     2.cd into project folder and run command 
           ``` pipenv install -r requirements ```
+
