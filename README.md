@@ -14,7 +14,7 @@
     Student Model ManyToMany Relationship with Course Model 
     Course Model ManyToMany Relationship with Teacher Model
 ```
-hint we don't need to break each many to many relationship <br> into 2 relations of type one to many Django Does This For Us
+hint we don't need to break each many to many relationship <br/> into 2 relations of type one to many Django Does This For Us
 ```
 # Api EndPoint
     we offer Api End Points For 
@@ -47,3 +47,8 @@ hint we don't need to break each many to many relationship <br> into 2 relations
     2.cd into project folder and run command 
           ``` pipenv install -r requirements ```
 
+# errors like 
+```
+During handling of the above exception, another exception occurred:
+may happen just ignore it this happen beacuse you run the django server on your local machine 
+and this error hapen with machine with windows operating system
